@@ -137,7 +137,7 @@
           "ciudad": "Ciudad B",
           "telefono": "555-7890",
           "horario": "9:00 AM - 6:00 PM",
-          "imagen": "",
+          "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM4zgrQ1oXMpq1JXBSn8jINHn17Lk-AqWbNyGEsiplGgnGKDUzRA0n_tPS4b28GdzckGs&usqp=CAU",
           "servicios": ["Corte de pelo", "Afeitado de barba"]
         },
         {

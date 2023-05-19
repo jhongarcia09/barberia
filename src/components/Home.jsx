@@ -15,7 +15,7 @@ const Home = () => {
             </p>
             <img src={img1} alt="img"/>
           </section>
-          <img src={logotipo} alt="img"/>
+          <imgn src={logotipo} alt="img"/>
         </section>
     </div>
   )

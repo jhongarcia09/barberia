@@ -10,7 +10,10 @@ body{
 }
 header{
   width: 100%;
-  background-color: rgb(172, 5, 5);
+  height: 100px;
+  background-color:brown;
+  text-align: center;
+ 
 }
 
 
@@ -73,7 +76,7 @@ header{
  margin: 2rem;
  padding: 10px;
  border-radius: 10%;
- background-color: aqua;
+ background-color: darkred;
 }
 .container{
   display:flex ;
@@ -81,3 +84,7 @@ header{
   flex-wrap: wrap;
   margin: 10px;
 }
+a{
+  margin: 20px;
+}
+
