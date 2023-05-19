@@ -5,7 +5,7 @@ const Barberos = () => {
   return (
    <section>
     <Header/>
-    <section>
+    <section className='container'>
     {
         registro.map((registro)=>(
           //eslint-disable-next-line react/jsx-key

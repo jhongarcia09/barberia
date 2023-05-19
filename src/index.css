@@ -14,34 +14,10 @@ header{
 }
 
 
-.ul{
-  padding: 0;
-  list-style: none;
-}
-.ul li{
-  display: inline-block;
-}
-.ul li .link{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  text-decoration: none;
-  display: block;
-  padding: 15px;
-  color: white;
-}
-.ul li .link:hover{
-  background-color: red;
-}
+
 .titulo{
   text-align: center;
   margin-top: 20px;
-}
-.cuerpo-home{
-  margin: 30px;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-
 }
 .cuerpo-home .texto-home{
   padding: 30px;
@@ -50,17 +26,6 @@ header{
   width: 400px;
   height: 400px;
   padding: 20px;
-}
-.cuerpo-home img{
-  width: 500px;
-  float: left;
-  margin-right: 20px;  
-}
-.card-productos {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 60px;
-  
 }
 .card-productos section{
   border: 1px solid rgb(29, 20, 20);
@@ -87,21 +52,8 @@ header{
   text-align: center;
   padding: 10px;
   margin: 30px;
+}
 
-}
-.card-barber img{
-  width: 290px;
-}
-.img-barber{
-  width: 100%;
-}
-.img-clientes{
-  width: 100%;
-}
-.card-cliente{
-  display: flex;
-  flex-wrap: wrap;
-}
 .card-cliente section{
   border: 3px solid rgb(14, 12, 12);
   width: 500px;
@@ -111,4 +63,21 @@ header{
 }
 .card-cliente img{
   width: 300px;
+}
+.card{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ width: 500px;
+ margin: 2rem;
+ padding: 10px;
+ border-radius: 10%;
+ background-color: aqua;
+}
+.container{
+  display:flex ;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px;
 }
