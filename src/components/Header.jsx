@@ -6,10 +6,8 @@ const Header = () => {
     <header>
         <nav>
             <ul className='ul'>
-                <li><Link to={'/'} className='link' >Home</Link></li>
-                <li><Link to={'/productos'} className='link'>Cortes</Link></li> 
-                <li><Link to={'/clientes'} className='link'>Clientes</Link></li>
-                <li><Link to={'/barberos'} className='link'>Barberos</Link></li>
+                <Link to={'/'} >Home</Link>
+                <Link to={'/barberos'}>Barberos</Link>
             </ul>
         </nav>
     </header>

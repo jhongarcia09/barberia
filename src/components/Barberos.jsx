@@ -1,21 +1,25 @@
-import React from 'react'
 import Header from './Header'
-import GaleriaBarberos from './GaleriaBarberos'
-import imagen4 from "./../img/img-barberos/imagen4.jpg"
+import registro from "../registros.json"
 
 const Barberos = () => {
   return (
-    <div>
-        <Header/>
-        <img src={imagen4} className='img-barber'/>
-        <h1 className='titulo'>
-          Nuestros Barberos
-        </h1>
-       <center><h2 className='subtitulo'>
-          Ellos son espacialista en el cabello con un amplio conocimiento en este campo </h2> </center> 
-       
-        <GaleriaBarberos/>
-    </div>
+   <section>
+    <Header/>
+    <section>
+    {
+        registro.map((registro)=>(
+          //eslint-disable-next-line react/jsx-key
+          <section className='card'>
+            <img src={registro.imagen} />
+            <p>{registro.nombre}</p>
+            <p>{registro.duracion}</p>
+            <p>{registro.precio}</p>
+          </section>
+        ))
+}
+    </section>
+   </section>
+    
   )
 }
 

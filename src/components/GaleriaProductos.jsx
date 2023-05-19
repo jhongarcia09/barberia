@@ -6,6 +6,7 @@ import mohicano from "./../img/img-productos/mochicano.jpg"
 import francesaClara from "./../img/img-productos/francesa-clara.jpg"
 import francesaOscura from "./../img/img-productos/francesa-oscura.jpg"
 
+
 const productos =[
     {
       nombre: "Buzz",
@@ -58,6 +59,7 @@ const GaleriaProductos = () => {
         }
     </div>
   )
+  
 }
 
 export default GaleriaProductos
